@@ -1,0 +1,14 @@
+config:
+  core-vnet:location: UK South
+  core-vnet:storageAccountName: ukspulumistdlrs03
+  core-vnet:storageAccountName.accountTier: Standard
+  
+  core-vnet:networkAddressSpace: 10.100.0.0/16
+  core-vnet:resourceGroupName: UKS-PULUMI-HUB-RG
+  core-vnet:virtualNetworkName: UKS-PULUMI-HUB-VNET
+  core-vnet:subnetNameDMZ: UKS-DMZ-HUB-SUBNET
+  core-vnet:subnetNameWEB: UKS-WEB-HUB-SUBNET
+  core-vnet:subnetNameAPP: UKS-APP-HUB-SUBNET
+  core-vnet:nsgGroupNameDMZ: UKS-DMZ-HUB-NSG
+  core-vnet:nsgGroupNameWEB: UKS-WEB-HUB-NSG
+  core-vnet:nsgGroupNameAPP: UKS-APP-HUB-NSG

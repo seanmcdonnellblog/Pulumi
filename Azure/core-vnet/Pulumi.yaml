@@ -1,0 +1,3 @@
+name: core-vnet
+runtime: nodejs
+description: A minimal Azure TypeScript Pulumi program
